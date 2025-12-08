@@ -1,16 +1,56 @@
-## Hi there 👋
+# 👋 Привет, меня зовут Павел Лагерев
 
-<!--
-**Chashkapluy1/Chashkapluy1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Я начинающий **Python-разработчик (Backend)** с опытом в авиационной инженерии, осознанно перешедший в IT. Мой технический бэкграунд научил меня работать с высоконагруженными системами, строго соблюдать процессы и нести ответственность за результат — эти навыки я теперь применяю в разработке надежного и масштабируемого backend-кода.
 
-Here are some ideas to get you started:
+Моё портфолио — это практические проекты, в которых я реализовал REST API, системы аутентификации, асинхронные сервисы и работу с базами данных. Я открыт для предложений о работе и готов к удаленному формату.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🛠️ Технологии и инструменты
+- **Язык:** Python
+- **Фреймворки:** Django, Django REST Framework, FastAPI, Flask
+- **Базы данных:** PostgreSQL, SQLAlchemy
+- **Инфраструктура:** Docker, Docker Compose
+- **Тестирование:** Pytest
+- **Инструменты:** Git, GitHub, PyCharm
+- **Прочее:** REST API, JWT, алгоритмы и структуры данных, рефакторинг
+
+---
+
+## 📁 Мои ключевые проекты
+
+### [YaMDB](https://github.com/Chashkapluy1/api-yamdb)
+**REST API для отзывов на произведения**  
+Командный учебный проект. Реализована система аутентификации по JWT, ролевая модель (user/moderator/admin), фильтрация, пагинация и работа с моделями через Django ORM.  
+*Стек:* Python, Django REST Framework, PostgreSQL, JWT.
+
+### [Foodgram](https://github.com/Chashkapluy1/foodgram)
+**Продуктовый помощник с рецептами**  
+Backend-часть веб-приложения для публикации рецептов. Реализованы подписки, избранное, список покупок с генерацией PDF.  
+*Стек:* Python, Django, Django REST Framework, PostgreSQL.
+
+### [Async YaCut](https://github.com/Chashkapluy1/async-yacut)
+**Асинхронный сервис сокращения ссылок**  
+REST API для генерации коротких ссылок с валидацией, редиректом и статистикой переходов.  
+*Стек:* Python, FastAPI, SQLAlchemy, async/await.
+
+### [Kittygram](https://github.com/Chashkapluy1/kittygram_final)
+**Социальная сеть для котиков**  
+API для публикации фото и информации о котах. Реализованы лента, комментарии, лайки и система пользователей.  
+*Стек:* Python, Django REST Framework.
+
+---
+
+## 📫 Контакты и соцсети
+- **Telegram:** [@Chashkapluy](https://t.me/Chashkapluy) (предпочитаемый способ связи)
+- **Email:** [lagerev2002@gmail.com](mailto:lagerev2002@gmail.com)
+- **GitHub:** [github.com/Chashkapluy1](https://github.com/Chashkapluy1)
+
+---
+
+## 🧭 Статус занятости
+**Открыт для предложений:** удаленная работа, полная или частичная занятость, проектная работа. Готов к командировкам и переезду.
+
+---
+
+> “Инженерный подход + современный стек = надежные и эффективные решения.”
