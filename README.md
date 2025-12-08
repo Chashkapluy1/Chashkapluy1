@@ -89,9 +89,9 @@
 
 ### 📂 Реализованные проекты
 
-#### 🔥 **[Foodgram — Продуктовый помощник](https://github.com/Chashkapluy1/foodgram)**
+#### 🔥 **[Foodgram — Продуктовый помощник](https://github.com/Chashkapluy1/foodgram-project-react)**
 **Backend для сервиса публикации и обмена рецептами**
-📍 Статус: Завершён | 🏷️ Тип: Учебный проект Яндекс.Практикум
+📍 Статус: Завершён | 🏷️ Тип: Учебный проект Яндекс.Практикум | ⏱️ Срок разработки: 2 месяца
 
 text
 
@@ -105,12 +105,15 @@ text
 **🛠 Технологический стек:**  
 `Python` `Django` `Django REST Framework` `PostgreSQL` `Docker` `Docker Compose` `Nginx` `Gunicorn`
 
-**📁 Структура проекта:**
-foodgram/
-├── backend/ # Django-приложение
-├── infra/ # Docker-конфигурации
-├── frontend/ # React-интерфейс
-└── docs/ # Документация
+**📁 Структура проекта (Backend часть):**
+foodgram-project-react/
+├── backend/ # Django-приложение (моя зона ответственности)
+│ ├── api/ # Эндпоинты REST API
+│ ├── recipes/ # Модели и логика рецептов
+│ ├── users/ # Аутентификация и пользователи
+│ └── docs/ # Документация API
+├── infra/ # Docker-конфигурации и nginx
+└── requirements.txt # Зависимости проекта
 
 text
 
@@ -118,7 +121,7 @@ text
 
 #### 📚 **[YaMDB — API для отзывов](https://github.com/Chashkapluy1/api-yamdb)**
 **Командная разработка REST API с системой ролей**
-📍 Статус: Завершён | 🏷️ Тип: Групповой проект (3 человека)
+📍 Статус: Завершён | 🏷️ Тип: Групповой проект (3 человека) | 🤝 Роль: Backend-разработчик
 
 text
 
@@ -151,15 +154,15 @@ text
 - ✅ **Валидация URL** и обработка дубликатов
 - 📊 **Статистика переходов** по каждой ссылке
 - 🔄 **Редирект** с короткого URL на оригинальный
-- 📖 **Автогенерация документации** (OpenAPI)
+- 📖 **Автогенерация документации** (OpenAPI/Swagger)
 
 **🛠 Технологический стек:**  
 `Python` `FastAPI` `SQLAlchemy (Async)` `Alembic` `Pydantic` `Uvicorn` `async/await`
 
 **⚡ Производительность:**
-- Асинхронные endpoint'ы
-- Оптимизированные запросы к БД
-- Валидация данных на уровне Pydantic
+- Асинхронные endpoint'ы для высокой нагрузки
+- Оптимизированные запросы к БД через async/await
+- Валидация данных на уровне Pydantic моделей
 
 ---
 
@@ -180,44 +183,54 @@ text
 `Python` `Django REST Framework` `SQLite` `Docker` `Nginx` `Gunicorn`
 
 **🐳 Инфраструктура:**
-- Контейнеризация приложения
+- Полная контейнеризация приложения
 - Настройка Nginx как reverse proxy
-- Автоматическое развертывание
+- Автоматическое развертывание через Docker Compose
 
 ---
 
 ### 🚀 Как запустить проекты локально
 
-Большинство проектов готовы к запуску через Docker:
+Большинство проектов готовы к запуску через Docker. Пример для Foodgram:
 
 ```bash
 # Клонировать репозиторий
-git clone https://github.com/Chashkapluy1/foodgram.git
+git clone https://github.com/Chashkapluy1/foodgram-project-react.git
 
 # Перейти в директорию проекта
-cd foodgram
+cd foodgram-project-react
 
-# Запустить все сервисы
+# Запустить все сервисы (backend, frontend, database)
 docker-compose up -d --build
 
-# Приложение будет доступно по адресу:
-# Frontend: http://localhost
-# Backend API: http://localhost/api
-# Admin panel: http://localhost/admin
+# Приложение будет доступно по адресам:
+# • Frontend интерфейс: http://localhost
+# • Backend API: http://localhost/api
+# • Админ-панель Django: http://localhost/admin
+# • Документация API: http://localhost/api/docs
 Системные требования:
 
-Docker 20.10+
-
-Docker Compose 2.0+
+Docker 20.10+ и Docker Compose 2.0+
 
 2+ GB свободной оперативной памяти
 
 Поддерживаемые ОС: Linux, macOS, Windows (WSL2)
 
+Для разработки (без Docker):
+
+bash
+# Установить зависимости
+pip install -r requirements.txt
+
+# Применить миграции
+python manage.py migrate
+
+# Запустить сервер разработки
+python manage.py runserver
 📊 Активность на GitHub
-<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Chashkapluy1&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" height="165" alt="GitHub Stats" /> <img src="https://github-readme-streak-stats.herokuapp.com/?user=Chashkapluy1&theme=radical&hide_border=true" height="165" alt="GitHub Streak" /> <br> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chashkapluy1&layout=compact&theme=radical&hide_border=true&langs_count=8&exclude_repo=kittygram_final,async-yacut" height="165" alt="Top Languages" /> </div>
+<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Chashkapluy1&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" height="165" alt="GitHub Stats" /> <img src="https://github-readme-streak-stats.herokuapp.com/?user=Chashkapluy1&theme=radical&hide_border=true" height="165" alt="GitHub Streak" /> <br> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chashkapluy1&layout=compact&theme=radical&hide_border=true&langs_count=8&exclude_repo=kittygram_final,async-yacut,Chashkapluy1" height="165" alt="Top Languages" /> </div><p align="center"> <i>⭐ Для точного отображения языков добавлен файл .gitattributes</i> </p>
 📫 Контакты для связи
-Предпочитаемый способ связи: Telegram @Chashkapluy
+Предпочитаемый способ связи: Telegram @Chashkapluy (отвечаю быстро)
 Электронная почта: lagerev2002@gmail.com
 Резюме на HH.ru: hh.ru/resume/d5d3c649ff0fc335d90039ed1f75474f45424b
 
@@ -229,5 +242,9 @@ Docker Compose 2.0+
 <div align="center">
 🚀 Готов применить инженерный подход к вашим backend-задачам!
 Открыт к интересным проектам и командам. Давайте создавать надёжные системы вместе!
+
+
+https://img.shields.io/badge/%F0%9F%93%B1_%D0%9D%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C_%D0%B2_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white
+https://img.shields.io/badge/%F0%9F%93%A7_%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C_%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%BE-D14836?style=for-the-badge&logo=gmail&logoColor=white
 
 </div> ```
