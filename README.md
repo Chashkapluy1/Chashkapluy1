@@ -3,7 +3,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=2CA5E0&center=true&vCenter=true&width=500&lines=Павел+Лагерев;Python+Backend+Developer;Авиационный+инженер+→+Dev;Создаю+надёжный+код" alt="Typing SVG" />
   
   <p align="center">
-    <b>📍 Москва | Готов к удалённой работе и релокации</b>
+    <b>📍 Москва | Рассматриваю удалённую работу и офис в Москве</b>
   </p>
 
   <!-- Социальные бейджи -->
@@ -99,7 +99,7 @@
 **Резюме:** [HH.ru](https://hh.ru/resume/d5d3c649ff0fc335d90039ed1f75474f45424b)
 
 **Статус:** 🔍 Активно ищу работу  
-**Формат:** Удалённо/офис (Москва)  
+**Формат:** Удалённо или офис (Москва)  
 **Готовность:** 1 неделя
 
 ---
