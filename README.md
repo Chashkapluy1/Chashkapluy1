@@ -1,9 +1,9 @@
 <!-- Анимация печати и заголовок -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=2CA5E0&center=true&vCenter=true&width=500&lines=Павел+Лагерев;Python+Backend+Developer;Авиационный+инженер+→+Dev;Создаю+надёжный+код" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=2CA5E0&center=true&vCenter=true&width=600&lines=Павел+Лагерев;Python+Backend+Developer;AI+Integration+Engineer;Aviation+Grade+Reliability;Vibe+Coding+Enthusiast" alt="Typing SVG" />
   
   <p align="center">
-    <b>📍 Москва | Рассматриваю удалённую работу и офис в Москве</b>
+    <b>📍 Москва | Full-time | Remote / Hybrid</b>
   </p>
 
   <!-- Социальные бейджи -->
@@ -17,95 +17,72 @@
     <img src="https://img.shields.io/badge/Резюме-HH.ru-E60201?style=for-the-badge&logo=headhunter&logoColor=white" alt="HH.ru">
   </a>
   <br>
-  <img src="https://img.shields.io/badge/🔍_Open_to_Work-Yes-success?style=for-the-badge&color=2ea44f">
+  <img src="https://img.shields.io/badge/Status-Middle_Level_Dev-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/AI_Native-True-green?style=flat-square">
   <img src="https://komarev.com/ghpvc/?username=Chashkapluy1&color=blueviolet&style=flat-square" alt="Profile Views">
 </div>
 
 ---
 
-### 🚀 Обо мне: Инженерный подход в каждой строке кода
+### 🚀 Обо мне: Инженерная надежность в мире AI
 
-> *"Из авиации я вынес главное: система должна работать безупречно. Этот же принцип — в основе моего кода."*
+Я — Backend-разработчик с **4-летним инженерным бэкграундом** (от обслуживания бортовых систем **Boeing 737/777** до разработки ИИ-агентов). Мой подход к коду базируется на принципе **Zero Margin for Error**: система должна быть отказоустойчивой, документированной и протестированной.
 
-Раньше я обслуживал **Boeing 737-777**, где цена ошибки критически высока. Сегодня я применяю ту же **дисциплину, точность и внимание к деталям** в разработке Backend-приложений на Python.
-
-*   **Моя цель:** Строить чистые, масштабируемые и документированные системы, которые работают как швейцарские часы.
-*   **Текущий статус:** Активно ищу первую коммерческую позицию **Python Backend Developer**.
-*   **Подход:** Пишу код так, чтобы его было легко поддерживать и развивать.
-
-**Почему backend?** Люблю создавать логичные, масштабируемые системы с чёткой архитектурой.
+*   **AI-Native:** Использую возможности Cursor и Claude 3.5 для кратного ускорения разработки без потери архитектурного качества.
+*   **Vibe Coding:** Сторонник быстрой проверки гипотез и сборки MVP "под ключ" (от идеи до деплоя в Docker).
+*   **Reliability:** Применяю методологию **Root Cause Analysis (RCA)** при дебаггинге и оптимизации систем.
 
 ---
 
-### 🛠 Технологии
+### 🛠 Стек технологий
 
-**Backend:**  
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white)
-![DRF](https://img.shields.io/badge/-Django_REST-ff1709?style=flat-square&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
-**Базы данных:**  
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-d71f00?style=flat-square)
-
-**Инфраструктура:**  
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-**Концепции:**  
-![REST API](https://img.shields.io/badge/-REST_API-FF6F61?style=flat-square)
-![JWT](https://img.shields.io/badge/-JWT-000000?style=flat-square&logo=json-web-tokens)
+| Сфера | Технологии |
+| :--- | :--- |
+| **Backend** | `Python 3.12+`, `FastAPI`, `Django (DRF/Ninja)`, `AsyncIO`, `SQLAlchemy`, `Pydantic` |
+| **AI / LLM** | `LangChain`, `RAG`, `Function Calling`, `MCP (Model Context Protocol)`, `OpenAI/Claude API` |
+| **Data & Scraping** | `PostgreSQL`, `Redis`, `Qdrant`, `Playwright (Stealth)`, `Scrapy`, `BeautifulSoup` |
+| **Infrastructure** | `Docker`, `Docker-compose`, `CI/CD (GitHub/GitLab)`, `Linux (Ubuntu/Debian)`, `Nginx` |
 
 ---
 
-### 📂 Проекты
+### 📂 Избранные проекты
+
+#### 🤖 **AI Crypto Agent** — Автономный торговый агент
+*Агент, принимающий решения на основе рыночного контекста и исполняющий сделки через API.*
+- **Стек:** `FastAPI`, `AsyncIO`, `Function Calling`, `WebSockets`.
+- **Фишка:** Использование LLM как аналитического ядра с программной валидацией действий (Logic Gate).
+
+#### 🕷️ **High-load Scrapers (IT-Result)** — Коммерческая автоматизация
+*Разработка "пауков" для массового сбора данных (100к+ запросов/сутки).*
+- **Стек:** `Playwright`, `Scrapy`, `GitLab CI/CD`, `Docker`.
+- **Результат:** Обход anti-bot систем, ротация прокси и автоматизация деплоя.
+
+#### ⚡ **Async YaCut** — Асинхронный сервис сокращения ссылок
+*Высокопроизводительный API с акцентом на скорость ответа.*
+- **Стек:** `FastAPI`, `SQLAlchemy`, `async/await`.
+- [**Код →**](https://github.com/Chashkapluy1/async-yacut)
 
 #### 🔥 **Foodgram** — Продуктовый помощник
-*Backend для сервиса рецептов с подписками и списками покупок*  
-`Django` `DRF` `PostgreSQL` `Docker`  
-[**Код →**](https://github.com/Chashkapluy1/foodgram)
-
-#### 📚 **YaMDB** — API для отзывов  
-*REST API с JWT-аутентификацией и ролевой моделью*  
-`Django REST` `JWT` `PostgreSQL`  
-[**Код →**](https://github.com/Chashkapluy1/api-yamdb)
-
-#### ⚡ **Async YaCut** — Сокращатель ссылок  
-*Асинхронный сервис на FastAPI*  
-`FastAPI` `SQLAlchemy` `async/await`  
-[**Код →**](https://github.com/Chashkapluy1/async-yacut)
-
-#### 😺 **Kittygram** — Соцсеть для котов  
-*API с Docker-деплоем*  
-`Django REST` `Docker` `Nginx`  
-[**Код →**](https://github.com/Chashkapluy1/kittygram_final)
+*Backend для сервиса рецептов с подписками и генерацией PDF.*
+- **Стек:** `Django`, `PostgreSQL`, `Docker`, `GitHub Actions`.
+- [**Код →**](https://github.com/Chashkapluy1/foodgram)
 
 ---
 
-### 📊 Статистика GitHub
+### 📊 Статистика активности
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Chashkapluy1&show_icons=true&theme=default&hide_border=true&count_private=true" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Chashkapluy1&theme=default&hide_border=true" height="150" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Chashkapluy1&show_icons=true&theme=nord&hide_border=true&count_private=true" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Chashkapluy1&theme=nord&hide_border=true" height="150" alt="GitHub Streak" />
 </div>
 
 ---
 
-### 📫 Контакты
+### 📫 Как со мной связаться
 
-**Telegram:** [@Chashkapluy](https://t.me/Chashkapluy) *(предпочитаю)*  
-**Email:** [lagerev2002@gmail.com](mailto:lagerev2002@gmail.com)  
-**Резюме:** [HH.ru](https://hh.ru/resume/d5d3c649ff0fc335d90039ed1f75474f45424b)
-
-**Статус:** 🔍 Активно ищу работу  
-**Формат:** Удалённо или офис (Москва)  
-**Готовность:** 1 неделя
-
----
+- **Telegram:** [@Chashkapluy](https://t.me/Chashkapluy) — для оперативной связи.
+- **Готовность:** 🚀 Готов к сложным задачам и выводу ваших продуктов в "полёт".
 
 <div align="center">
-  
-**Открыт к предложениям! Давайте создадим что-то крутое вместе.** 🚀
-
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 </div>
