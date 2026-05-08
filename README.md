@@ -26,9 +26,9 @@
 
 ### 🚀 Обо мне: Инженерная надежность в мире AI
 
-Я — Backend-разработчик с **4-летним инженерным стажем** (от обслуживания критических систем **Boeing 737/777** и работы в гособоронзаказе до проектирования автономных ИИ-агентов). Мой код базируется на принципе **Zero Margin for Error**: я строю системы, которые работают предсказуемо и надежно.
+Я — Backend-разработчик с **4-летним инженерным бэкграундом** (от обслуживания критических систем **Boeing 777** и работы в гособоронзаказе до проектирования автономных ИИ-агентов). Мой код базируется на принципе **Zero Margin for Error**: я строю системы, которые работают предсказуемо и надежно.
 
-*   **AI-Native:** Использую возможности Cursor и Claude 3.5 как рычаг для десятикратного ускорения разработки без потери качества архитектуры.
+*   **AI-Native:** Использую возможности Cursor и **Claude 4.7 Opus** (xhigh effort) для проектирования архитектуры и кратного ускорения разработки.
 *   **Vibe Coding:** Сторонник быстрой проверки гипотез и сборки MVP "под ключ" (от идеи до деплоя в Docker).
 *   **Engineering DNA:** Применяю методологию **Root Cause Analysis (RCA)** при дебаггинге и оптимизации высоконагруженных пайплайнов.
 
@@ -39,33 +39,33 @@
 | Сфера | Технологии |
 | :--- | :--- |
 | **Backend** | `Python 3.12+`, `FastAPI`, `Django (Ninja/DRF)`, `AsyncIO`, `SQLAlchemy`, `Pydantic` |
-| **AI / LLM** | `LangChain`, `RAG`, `Function Calling`, `MCP (Model Context Protocol)`, `OpenAI/Claude API` |
-| **Data & Scraping** | `PostgreSQL`, `Clickhouse`, `Redis`, `Qdrant`, `Playwright (Stealth)`, `Scrapy` |
-| **DevOps** | `Docker`, `Docker-compose`, `CI/CD (GitHub Actions / GitLab CI)`, `Linux (Ubuntu/Debian)`, `Nginx` |
+| **AI / LLM** | `LangChain`, `LangGraph`, `RAG`, `Function Calling`, `MCP`, `OpenAI/Claude 4.7 API`, `Ollama` |
+| **Data & Scraping** | `PostgreSQL`, `Clickhouse`, `Redis`, `Qdrant`, `pgvector`, `Playwright`, `Scrapy` |
+| **DevOps** | `Docker`, `Docker-compose`, `CI/CD (GitHub Actions / GitLab CI)`, `Linux`, `Nginx` |
 
 ---
 
 ### 📂 Избранные проекты
 
 #### 🤖 **AI Crypto Agent** — Автономный торговый узел
-*Агент, самостоятельно анализирующий рыночный контекст и исполняющий сделки через биржевые API.*
+*Агент, анализирующий рыночный контекст (order book/delta) и исполняющий сделки через API бирж.*
 - **Стек:** `FastAPI`, `AsyncIO`, `Function Calling`, `WebSockets`.
-- **Фишка:** Внедрение архитектурного слоя **Logic Gate** для программной валидации действий ИИ.
+- **Фишка:** Внедрение слоя **Logic Gate** (программная валидация) для защиты от "галлюцинаций" ИИ при работе с деньгами.
 
 #### 🕷️ **High-load Scrapers (IT-Result)** — Коммерческая автоматизация
-*Разработка отказоустойчивых "пауков" для массового сбора данных (100к+ запросов/сутки).*
-- **Стек:** `Playwright`, `Scrapy`, `GitLab CI/CD`, `Docker`.
-- **Результат:** Автоматизация деплоя и оптимизация прокси-пулов (ускорение сбора на 40%).
+*Система сбора данных (100к+ запросов/сутки) с динамическим управлением прокси и обходом анти-бот защит.*
+- **Стек:** `Playwright`, `Scrapy`, `GitLab CI/CD`, `Docker`, `PostgreSQL`.
+- **Результат:** Автоматизация и стабильный поток данных для аналитики.
 
 #### ⚡ **Async YaCut** — Сервис коротких ссылок
-*Высокопроизводительный асинхронный API с акцентом на минимальный latency.*
+*Высокопроизводительный асинхронный API.*
 - **Стек:** `FastAPI`, `SQLAlchemy`, `async/await`.
 - [**Посмотреть код →**](https://github.com/Chashkapluy1/async-yacut)
 
-#### 🔥 **Foodgram** — Продуктовый помощник
-*Полноценный Backend для SPA с системой подписок и генерацией PDF-отчетов.*
-- **Стек:** `Django`, `PostgreSQL`, `Docker`, `GitHub Actions`.
-- [**Посмотреть код →**](https://github.com/Chashkapluy1/foodgram)
+#### 🎥 **Blackjack CV System** — Распознавание объектов
+*Система детекции объектов (карт) в видеопотоке на основе Computer Vision.*
+- **Стек:** `OpenCV`, `YOLOv8`, `PyTorch`.
+- **Фишка:** Обработка видеопотока в реальном времени с компенсацией перспективных искажений.
 
 ---
 
@@ -80,8 +80,8 @@
 
 ### 📫 Связь со мной
 
-- **Telegram:** [@Chashkapluy](https://t.me/Chashkapluy) — отвечаю максимально быстро.
-- **Готовность:** 🚀 Открыт к сложным задачам и амбициозным проектам.
+- **Telegram:** [@Chashkapluy](https://t.me/Chashkapluy)
+- **Готовность:**  Открыт к сложным задачам в Enterprise и AI-лабораториях.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
