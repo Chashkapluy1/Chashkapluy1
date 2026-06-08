@@ -1,9 +1,9 @@
 <!-- Анимация печати и заголовок -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=2CA5E0&center=true&vCenter=true&width=600&lines=Павел+Лагерев;Python+Backend+Developer;AI+Integration+Engineer;Aviation+Grade+Reliability;Vibe+Coding+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=2CA5E0&center=true&vCenter=true&width=600&lines=Павел+Лагерев;Python+Backend+Developer;AI+Integration+Engineer;System+Architect" alt="Typing SVG" />
   
   <p align="center">
-    <b>📍 Москва | Full-time | Remote / Hybrid / Office</b>
+    <b>📍 Москва | Full-time | Удаленно / Гибрид / Офис</b>
   </p>
 
   <!-- Социальные бейджи -->
@@ -18,58 +18,82 @@
   </a>
   <br>
   <img src="https://img.shields.io/badge/Status-Middle_Level_Engineer-blue?style=flat-square">
-  <img src="https://img.shields.io/badge/AI_Native-True-green?style=flat-square">
   <img src="https://komarev.com/ghpvc/?username=Chashkapluy1&color=blueviolet&style=flat-square" alt="Profile Views">
 </div>
 
 ---
 
-### 🚀 Обо мне: Инженерная надежность в мире AI
+### Обо мне
 
-Я — Backend-разработчик с **4-летним инженерным бэкграундом** (от обслуживания критических систем **Boeing 777** и работы в гособоронзаказе до проектирования автономных ИИ-агентов). Мой код базируется на принципе **Zero Margin for Error**: я строю системы, которые работают предсказуемо и надежно.
+Инженер-разработчик с **4-летним техническим опытом**. Мой профессиональный путь начался в авиации (обслуживание критических систем **Boeing 737/777**), где я привык к жестким регламентам и абсолютной надежности. Сегодня я применяю этот подход в IT.
 
-*   **AI-Native:** Использую возможности Cursor и **Claude 4.7 Opus** (xhigh effort) для проектирования архитектуры и кратного ускорения разработки.
-*   **Vibe Coding:** Сторонник быстрой проверки гипотез и сборки MVP "под ключ" (от идеи до деплоя в Docker).
-*   **Engineering DNA:** Применяю методологию **Root Cause Analysis (RCA)** при дебаггинге и оптимизации высоконагруженных пайплайнов.
+Специализируюсь на асинхронных бэкенд-системах, автономных ИИ-агентах и высоконагруженных пайплайнах данных. Пишу код быстро и прагматично: ежедневно использую **Cursor**, **Claude Code** и **Antigravity** для автоматизации рутины, полностью фокусируясь на архитектуре, безопасности и бизнес-логике.
 
 ---
 
-### 🛠 Стек технологий
+### Основной стек
 
-| Сфера | Технологии |
-| :--- | :--- |
-| **Backend** | `Python 3.12+`, `FastAPI`, `Django (Ninja/DRF)`, `AsyncIO`, `SQLAlchemy`, `Pydantic` |
-| **AI / LLM** | `LangChain`, `LangGraph`, `RAG`, `Function Calling`, `MCP`, `OpenAI/Claude 4.7 API`, `Ollama` |
-| **Data & Scraping** | `PostgreSQL`, `Clickhouse`, `Redis`, `Qdrant`, `pgvector`, `Playwright`, `Scrapy` |
-| **DevOps** | `Docker`, `Docker-compose`, `CI/CD (GitHub Actions / GitLab CI)`, `Linux`, `Nginx` |
+#### **Backend**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) 
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) 
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) 
+![Pydantic](https://img.shields.io/badge/Pydantic-E92067?style=flat-square&logo=pydantic&logoColor=white) 
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square) 
+![AsyncIO](https://img.shields.io/badge/AsyncIO-3776AB?style=flat-square&logo=python&logoColor=white)
 
----
+#### **AI Engineering**
+![AI Agents](https://img.shields.io/badge/AI_Agents-FF6F61?style=flat-square) 
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) 
+![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-blueviolet?style=flat-square) 
+![RAG](https://img.shields.io/badge/RAG-Retrieval--Augmented_Generation-blue?style=flat-square) 
+![Claude](https://img.shields.io/badge/Claude_Code-412991?style=flat-square&logo=anthropic&logoColor=white)
 
-### 📂 Избранные проекты
+#### **Данные и Базы**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) 
+![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC00?style=flat-square&logo=clickhouse&logoColor=black) 
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) 
+![Qdrant](https://img.shields.io/badge/Qdrant-Vector_DB-black?style=flat-square) 
+![ETL](https://img.shields.io/badge/ETL%20%2F%20Scraping-orange?style=flat-square)
 
-#### 🤖 **AI Crypto Agent** — Автономный торговый узел
-*Агент, анализирующий рыночный контекст (order book/delta) и исполняющий сделки через API бирж.*
-- **Стек:** `FastAPI`, `AsyncIO`, `Function Calling`, `WebSockets`.
-- **Фишка:** Внедрение слоя **Logic Gate** (программная валидация) для защиты от "галлюцинаций" ИИ при работе с деньгами.
-
-#### 🕷️ **High-load Scrapers (IT-Result)** — Коммерческая автоматизация
-*Система сбора данных (100к+ запросов/сутки) с динамическим управлением прокси и обходом анти-бот защит.*
-- **Стек:** `Playwright`, `Scrapy`, `GitLab CI/CD`, `Docker`, `PostgreSQL`.
-- **Результат:** Автоматизация и стабильный поток данных для аналитики.
-
-#### ⚡ **Async YaCut** — Сервис коротких ссылок
-*Высокопроизводительный асинхронный API.*
-- **Стек:** `FastAPI`, `SQLAlchemy`, `async/await`.
-- [**Посмотреть код →**](https://github.com/Chashkapluy1/async-yacut)
-
-#### 🎥 **Blackjack CV System** — Распознавание объектов
-*Система детекции объектов (карт) в видеопотоке на основе Computer Vision.*
-- **Стек:** `OpenCV`, `YOLOv8`, `PyTorch`.
-- **Фишка:** Обработка видеопотока в реальном времени с компенсацией перспективных искажений.
+#### **Инфраструктура и Качество**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) 
+![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white) 
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) 
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) 
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 
 ---
 
-### 📊 Статистика активности
+### Направления работы
+
+- **High-load Backend:** разработка асинхронных сервисов с чистой архитектурой и упором на производительность.
+- **Прикладной ИИ:** проектирование автономных агентов, RAG-систем и интеграция LLM в бизнес-процессы (Function Calling, Tool Use).
+- **Инженерия данных:** создание отказоустойчивых парсеров (100к+ запросов/сутки) и систем сбора данных с обходом защит.
+- **Надежность систем:** применение методологии Root Cause Analysis (RCA) для мониторинга и отладки инфраструктуры.
+
+---
+
+### Ключевой проект
+
+<div align="center">
+  <h3><b>AI Crypto Trading Agent</b></h3>
+  <p><i>Автономная торговая система, принимающая решения на основе реального рыночного контекста.</i></p>
+  <p>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+    <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI">
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+  </p>
+</div>
+
+**Что реализовано:**
+- Асинхронное ядро для обработки WebSocket-стримов бирж с минимальной задержкой.
+- Логика принятия решений через LLM (Function Calling).
+- Защитный слой **Logic Gate** на Pydantic для программной валидации действий ИИ перед исполнением сделок.
+
+---
+
+### Метрики GitHub
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Chashkapluy1&show_icons=true&theme=nord&hide_border=true&count_private=true" height="150" alt="GitHub Stats" />
@@ -78,11 +102,25 @@
 
 ---
 
-### 📫 Связь со мной
-
-- **Telegram:** [@Chashkapluy](https://t.me/Chashkapluy)
-- **Готовность:**  Открыт к сложным задачам в Enterprise и AI-лабораториях.
+### Контакты
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+  <a href="https://t.me/Chashkapluy">
+    <img src="https://img.shields.io/badge/Telegram-@Chashkapluy-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+  </a>
+  <a href="https://github.com/Chashkapluy1">
+    <img src="https://img.shields.io/badge/GitHub-Chashkapluy1-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Chashkapluy1&color=blueviolet&style=flat-square" alt="Profile Views">
+</div>
+
+---
+
+<div align="center">
+  <b>Открыт к сложным задачам. Готов к работе! 🚀</b>
 </div>
